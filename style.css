@@ -1,0 +1,26 @@
+.calculator {
+  margin: 10% 30%;
+}
+
+#calculator_display {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 30px;
+}
+
+#calculator_keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+#equal_sign {
+  grid-row-end: span 4;
+  background-color: dimgray;
+}
+
+#calculator_keys>button {
+  padding: 15px;
+  font-size: 30px;
+}
