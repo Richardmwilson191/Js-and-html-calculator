@@ -42,7 +42,7 @@ function equal() {
       if (operator.length >= 1) {
         let number_1 = Number(numbers[0].join(""));
         let number_2 = Number(numbers[1].join(""));
-        switch (operator.pop()) {
+        switch (operator[0]) {
           case 'x':
             answer = number_1 * number_2;
             break;
